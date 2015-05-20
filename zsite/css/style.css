@@ -1,0 +1,220 @@
+body{
+font-family: Arial, sans-serif;
+background-color: white;
+    }
+
+#imglogo{	
+	 height:30px;
+	}
+img{
+   border-radius: 15px;
+   }
+   
+#menub{
+padding-bottom: 25px;
+	}
+
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+	}
+
+button.navbar-toggle.collapsed, button.navbar-toggle.dropdown-login, button.navbar-toggle{
+   border-color: #999 !important;
+   }
+
+/* Navbar */
+nav {
+background-color: #22CCB5 !important;
+border-style: none !important;
+}
+
+a.navbar-brand {
+color: white !important;
+}
+
+a.dropdown-toggle {
+color: white !important;
+}
+
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus {
+  color: #fff;
+  background-color: #FECC10;
+}
+
+.navbar-form{
+margin-bottom: -15px;
+}
+
+
+p{
+color: #555;
+}
+
+a.btn.btn-lg.btn-primary{
+background-color: #22CCB5 !important;
+border-color: #22CCB7 !important;
+color: white !important;
+
+border-radius: 100px !important;
+}
+
+/* 
+  =====================================
+  CSS for <iframe> embedded Google Map
+  ===================================== 
+*/
+.mapWrapper {
+    position: relative;
+    /* 
+    Do math with the height of your iframe divided by the width, then converted to percent
+    In this example the height is 400 and the width is 600
+    400 / 600 = .66666667 
+    which is 66.6666667% */
+    padding-bottom: 66.6666667%; 
+    height: 0;
+}
+.mapWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* 
+  =====================================
+  CSS for <iframe> embedded Google Map
+  ===================================== 
+*/
+
+/* -------------------- CE QUE J'AI MODIFIEE --------------------- */
+
+
+.form-login{
+	text-align: center;
+    top: 20px;
+    right: 25px;
+    display: none;
+    position: absolute;
+    z-index: 100;
+    background-color: white;
+    -webkit-box-shadow: 10px 10px 7px #d2d2d2;
+    box-shadow: 10px 10px 7px #d2d2d2;
+}
+
+.form-login label{
+
+}
+
+.form-login input{
+ padding: 10px;
+ background-color: #ededed;
+ margin: 3px;
+}
+
+.form-login active{
+    position: relative;
+    display: block;
+    margin-top: 70px;
+}
+input, textarea{
+  -webkit-transition: all 0.3s ease-in-out !important;
+  -moz-transition: all 0.3s ease-in-out !important;
+  -ms-transition: all 0.3s ease-in-out !important;
+  -o-transition: all 0.3s ease-in-out !important;
+ 
+   border: 1px solid #ededed !important;
+  }
+  
+input:focus, textarea:focus{
+border: none !important;
+outline: none !important;
+	border: 1px solid #FECC10 !important;
+  box-shadow: 0px 0px 5px #FECC10 !important;
+  padding: 12px;
+}	
+/* -------------------- CE QUE J'AI MODIFIEE --------------------- */
+
+p.list-group-item, button.btn.btn-primary.btn-xs{
+background-color: #22CCB5 !important;
+  border-color: #22CCB5 !important;
+}
+
+
+button.navbar-toggle.dropdown-login:hover, button.navbar-toggle.collapsed:hover, button.navbar-toggle:hover, a.btn.btn-default:hover, button.btn.btn-default:hover, a.list-group-item:hover, a.dropdown-toggle:hover, button.btn.btn-primary.btn-xs:hover, 
+a.li.ul.dropdown-menu:hover, .langue:hover{
+background-color: #FECC10 !important;
+}
+
+
+.test2{
+color: darkorange;   
+       }
+        
+
+#menub{
+margin-left:100px;
+height : 30%;
+}
+
+        
+#carregrish{
+font-size: 2.6vmax !important; 	
+      }
+        	
+#carregris{
+font-size: 1.8vmax !important;
+      }
+        
+#carregrisp{
+font-size: 1.4vmax	 !important;
+    }
+
+@media screen and (min-width: 400px) {
+#imglieu{
+height : 300px ;
+margin-left : 5px;
+        }  
+}
+
+@media screen and (max-width: 400px) {
+#imglieu{
+height : 150px ;
+margin-left : 5px;
+		}
+}
+ 
+@media screen and (max-width: 767px) {
+body {
+padding-top: 40px;
+    }
+
+#buttondemerde{
+width: 100%;
+	}
+  
+#menub{
+margin-top: 20px;   
+	}  
+ 
+#recherche{
+padding: 10px;
+	}
+
+#sidebar{
+margin-left: 55%;
+	}
+
+#buttonlogin{
+display: none;
+	}
+}
+  
+@media screen and (max-width: 991px) {
+#menub{
+margin-left: 0px !important;   
+	}  
+} 
+
