@@ -1,3 +1,0 @@
-Options +FollowSymlinks
-RewriteEngine On
-RewriteRule ^([^/\.]+)/([^/\.]+)/index.html$ /index.php?module=$1&action=$2 [QSA]
